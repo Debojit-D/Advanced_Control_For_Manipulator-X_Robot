@@ -1,0 +1,10 @@
+trajectory_tracking_impedance_control_controller:
+  type: advanced_robotics_control/TrajectoryTrackingImpedanceControlController
+  joint_names:
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+
+  root_link: world
+  tip_link: end_effector_link

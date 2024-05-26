@@ -1,0 +1,17 @@
+<library path="lib/libadvanced_robotics_control">
+  <class name="advanced_robotics_control/GravityCompensationController" type="advanced_robotics_control::GravityCompensationController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      GravityCompensationController
+    </description>
+  </class>
+  <class name="advanced_robotics_control/ImpedanceControlController" type="advanced_robotics_control::ImpedanceControlController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      ImpedanceControlController for robotic manipulators.
+    </description>
+  </class>
+  <class name="advanced_robotics_control/TrajectoryTrackingImpedanceControlController" type="advanced_robotics_control::TrajectoryTrackingImpedanceControlController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      TrajectoryTrackingImpedanceControlController for robotic manipulators.
+    </description>
+  </class>
+</library>
